@@ -1,0 +1,14 @@
+output:	map_test.o
+	g++ map_test.o  -o output
+
+
+map_test.o: map_test.c++
+	g++ -c map_test.c++
+
+
+
+clean:
+	del /f *.o output.exe
+
+run:
+	output
