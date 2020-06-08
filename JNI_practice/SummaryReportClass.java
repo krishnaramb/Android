@@ -1,6 +1,6 @@
 public class SummaryReportClass {  // Save as HelloJNI.java
    static {
-      System.loadLibrary("cplusplus_lib"); // Load native library hello.dll (Windows) or libhello.so (Unixes)
+      System.loadLibrary("./libhello.so"); // Load native library hello.dll (Windows) or libhello.so (Unixes)
                                    //  at runtime
                                    // This library contains a native method called sayHello()
    }

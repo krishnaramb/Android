@@ -8,7 +8,7 @@ map_test.o: map_test.c++
 
 
 clean:
-	del /f *.o output.exe
+	del /f *.o output
 
 run:
-	output
+	./output
